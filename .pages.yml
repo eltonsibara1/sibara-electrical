@@ -45,29 +45,46 @@ content:
     path: data/business.json
     format: json
     fields:
-      - name: name
-        label: Business name
-        type: string
-      - name: tagline
-        label: Tagline
-        type: text
-      - name: phone
-        label: Phone number
-        type: string
+      - { name: name, label: Business name, type: string }
+      - { name: slogan, label: Slogan, type: string }
+      - { name: tagline, label: Tagline, type: string }
+      - { name: intro, label: Intro (top of the home page), type: text }
+      - { name: phone, label: Phone number, type: string }
       - name: whatsapp
         label: WhatsApp number
-        description: "Your normal number is fine, e.g. 082 123 4567"
+        description: "Your normal number is fine, e.g. 079 137 8778"
         type: string
-      - name: email
-        label: Email
-        type: string
-      - name: area
-        label: Area you work in
-        type: string
-      - name: about
-        label: About
-        type: text
-      - name: highlights
-        label: Services list
-        type: string
-        list: true
+      - { name: email, label: Email, type: string }
+      - { name: registration, label: Company registration number, type: string }
+      - { name: highlights, label: Highlights (short badges), type: string, list: true }
+      - { name: about, label: About us, type: text }
+      - { name: mission, label: Mission, type: text }
+      - { name: vision, label: Vision, type: text }
+      - { name: values, label: Values, type: string, list: true }
+      - name: services
+        label: Services
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - { name: name, label: Service, type: string }
+          - { name: text, label: Description, type: text }
+      - name: director
+        label: Director
+        type: object
+        fields:
+          - { name: name, label: Name, type: string }
+          - { name: role, label: Role, type: string }
+          - { name: bio, label: Bio, type: text }
+      - name: clients
+        label: Clients
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - { name: name, label: Client name, type: string }
+          - { name: type, label: Type of client, type: string }
