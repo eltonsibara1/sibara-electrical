@@ -3,26 +3,88 @@
     {
       "title": "Distribution board installations",
       "category": "Distribution Board (DB)",
-      "images": ["images/projects/db-board-1.jpg", "images/projects/db-board-2.jpg"],
+      "images": [
+        "images/projects/db-board-1.jpg",
+        "images/projects/db-board-2.jpg"
+      ],
       "info": "New and upgraded distribution boards with neatly routed, labelled circuits, circuit breakers and earth leakage protection."
     },
     {
-      "title": "Air conditioning installations",
+      "title": "Split unit air conditioning",
       "category": "Air Conditioning",
-      "images": ["images/projects/aircon-1.jpg", "images/projects/aircon-2.jpg", "images/projects/aircon-3.jpg", "images/projects/aircon-4.jpg", "images/projects/aircon-5.jpg", "images/projects/aircon-6.jpg", "images/projects/aircon-7.jpg", "images/projects/aircon-8.jpg"],
-      "info": "Wall-mounted split units and ceiling cassette units installed for homes, lodges, offices and accommodation, with neat trunking and securely mounted outdoor units."
+      "images": [
+        "images/projects/aircon-1.jpg",
+        "images/projects/aircon-12.jpg",
+        "images/projects/aircon-11.jpg",
+        "images/projects/aircon-9.jpg",
+        "images/projects/aircon-10.jpg",
+        "images/projects/aircon-3.jpg",
+        "images/projects/aircon-4.jpg",
+        "images/projects/aircon-5.jpg",
+        "images/projects/aircon-6.jpg",
+        "images/projects/aircon-7.jpg",
+        "images/projects/aircon-8.jpg"
+      ],
+      "info": "Wall-mounted split units installed for homes, lodges, offices and accommodation, with neat trunking, securely mounted outdoor units and gas pressure checks at commissioning."
+    },
+    {
+      "title": "Ceiling cassette air conditioning",
+      "category": "Air Conditioning",
+      "images": [
+        "images/projects/cassette-1.jpg",
+        "images/projects/cassette-2.jpg",
+        "images/projects/cassette-3.jpg"
+      ],
+      "info": "Installation and servicing of ceiling cassette units for offices, classrooms and open-plan spaces."
+    },
+    {
+      "title": "Solar and inverter backup systems",
+      "category": "Solar Systems",
+      "images": [
+        "images/projects/solar-1.jpg",
+        "images/projects/solar-2.jpg",
+        "images/projects/solar-3.jpg",
+        "images/projects/solar-4.jpg"
+      ],
+      "info": "Rooftop solar panels with inverters, battery banks and protection boxes, wired neatly to keep the power on during load shedding."
+    },
+    {
+      "title": "Cold room and refrigeration work",
+      "category": "Cold Rooms & Refrigeration",
+      "images": [
+        "images/projects/refrigeration-2.jpg",
+        "images/projects/refrigeration-3.jpg",
+        "images/projects/refrigeration-1.jpg"
+      ],
+      "info": "Cold room evaporators and condensing units, plus fault finding and compressor repairs on commercial refrigeration."
     },
     {
       "title": "Lighting installations",
       "category": "Lighting",
-      "images": ["images/projects/lighting-1.jpg", "images/projects/lighting-2.jpg", "images/projects/lighting-3.jpg"],
+      "images": [
+        "images/projects/lighting-1.jpg",
+        "images/projects/lighting-2.jpg",
+        "images/projects/lighting-3.jpg"
+      ],
       "info": "Ceiling panel lights and LED tube fittings for shops, supermarkets and offices."
     },
     {
-      "title": "Refrigeration compressor repair",
-      "category": "Cold Rooms & Refrigeration",
-      "images": ["images/projects/refrigeration-1.jpg"],
-      "info": "Fault finding and compressor repair on a commercial refrigeration unit, tested with refrigerant gauges."
+      "title": "Floodlights and pole work",
+      "category": "Lighting",
+      "images": [
+        "images/projects/pole-work-1.jpg",
+        "images/projects/pole-work-2.jpg"
+      ],
+      "info": "Floodlights mounted on poles and overhead cable connections, done safely at height."
+    },
+    {
+      "title": "Appliance repairs",
+      "category": "Appliance Repairs",
+      "images": [
+        "images/projects/appliance-1.jpg",
+        "images/projects/appliance-2.jpg"
+      ],
+      "info": "Washing machine and refrigerator repairs, including fridge re-gassing and fault finding."
     },
     {
       "title": "Geyser installations",
