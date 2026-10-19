@@ -73,11 +73,11 @@
   "clients": [
     {
       "name": "LMPP Lodge",
-      "type": "Lodgge"
+      "type": "Lodge"
     },
     {
       "name": "Ligidima Lodge",
-      "type": "Logde"
+      "type": "Lodge"
     },
     {
       "name": "Hubyeni Complex",
@@ -85,7 +85,7 @@
     },
     {
       "name": "Biaba Complex",
-      "type": "Shopping Center "
+      "type": "Shopping centre"
     }
   ]
 }
