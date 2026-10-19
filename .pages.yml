@@ -1,0 +1,73 @@
+# Pages CMS config: lets the owner edit project cards from a phone at https://app.pagescms.org
+media:
+  input: images/projects
+  output: images/projects
+
+content:
+  - name: projects
+    label: Projects
+    type: file
+    path: data/projects.json
+    format: json
+    fields:
+      - name: projects
+        label: Projects
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title} ({category})"
+        fields:
+          - name: title
+            label: Title
+            type: string
+            required: true
+          - name: category
+            label: Type (category)
+            description: "e.g. Geyser, Distribution Board (DB), Wiring, Lighting, Solar. Use the same spelling to group cards together."
+            type: string
+            required: true
+          - name: images
+            label: Photos
+            type: image
+            options:
+              multiple:
+                max: 30
+              extensions: [jpg, jpeg, png, webp]
+              rename: safe
+          - name: info
+            label: Information
+            type: text
+
+  - name: business
+    label: Business details
+    type: file
+    path: data/business.json
+    format: json
+    fields:
+      - name: name
+        label: Business name
+        type: string
+      - name: tagline
+        label: Tagline
+        type: text
+      - name: phone
+        label: Phone number
+        type: string
+      - name: whatsapp
+        label: WhatsApp number
+        description: "Your normal number is fine, e.g. 082 123 4567"
+        type: string
+      - name: email
+        label: Email
+        type: string
+      - name: area
+        label: Area you work in
+        type: string
+      - name: about
+        label: About
+        type: text
+      - name: highlights
+        label: Services list
+        type: string
+        list: true

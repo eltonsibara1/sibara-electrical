@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "title": "Distribution board installations",
+      "category": "Distribution Board (DB)",
+      "images": ["images/projects/db-board-1.jpg", "images/projects/db-board-2.jpg"],
+      "info": "New and upgraded distribution boards with neatly routed, labelled circuits, circuit breakers and earth leakage protection."
+    },
+    {
+      "title": "Air conditioning installations",
+      "category": "Air Conditioning",
+      "images": ["images/projects/aircon-1.jpg", "images/projects/aircon-2.jpg", "images/projects/aircon-3.jpg", "images/projects/aircon-4.jpg", "images/projects/aircon-5.jpg", "images/projects/aircon-6.jpg", "images/projects/aircon-7.jpg", "images/projects/aircon-8.jpg"],
+      "info": "Wall-mounted split units and ceiling cassette units installed for homes, lodges, offices and accommodation, with neat trunking and securely mounted outdoor units."
+    },
+    {
+      "title": "Lighting installations",
+      "category": "Lighting",
+      "images": ["images/projects/lighting-1.jpg", "images/projects/lighting-2.jpg", "images/projects/lighting-3.jpg"],
+      "info": "Ceiling panel lights and LED tube fittings for shops, supermarkets and offices."
+    },
+    {
+      "title": "Refrigeration compressor repair",
+      "category": "Cold Rooms & Refrigeration",
+      "images": ["images/projects/refrigeration-1.jpg"],
+      "info": "Fault finding and compressor repair on a commercial refrigeration unit, tested with refrigerant gauges."
+    },
+    {
+      "title": "Geyser installations",
+      "category": "Geyser",
+      "images": [],
+      "info": "Geyser installation, servicing and maintenance. Photos coming soon."
+    }
+  ]
+}

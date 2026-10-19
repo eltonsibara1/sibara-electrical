@@ -1,0 +1,38 @@
+{
+  "name": "Sibara Electrical And Electronics",
+  "slogan": "The best service you can trust",
+  "tagline": "Reliable. Professional. Innovative.",
+  "intro": "Reliable, high-quality electrical, electronic, refrigeration, air conditioning, security and renewable energy solutions for residential, commercial and industrial clients.",
+  "phone": "079 137 8778",
+  "whatsapp": "079 137 8778",
+  "email": "info@sibaraelectric.com",
+  "registration": "2019/581510/07",
+  "highlights": ["100% Black-owned", "Residential, commercial & industrial", "Reg. 2019/581510/07"],
+  "about": "Sibara Electrical And Electronics is a 100% Black-owned South African company committed to delivering dependable electrical and technical services to residential, commercial and industrial clients.\n\nWe provide installation, maintenance, repair and technical support services for property owners, businesses, accommodation facilities and other organisations. For us, quality service goes beyond completing a job. It means building trust, keeping professional standards, putting safety first and building lasting relationships with our clients.\n\nWe are also passionate about empowering South African youth by giving students practical workplace exposure and technical skills for careers in the electrical and engineering sectors.",
+  "mission": "To provide reliable, safe and high-quality electrical and technical solutions while developing practical skills and creating opportunities for South African youth.",
+  "vision": "To become a trusted and recognised electrical and technical services company in South Africa, known for quality workmanship, innovation and youth development.",
+  "values": ["Trust and integrity", "Safety and professionalism", "Quality workmanship", "Customer satisfaction", "Innovation and continuous learning", "Youth empowerment"],
+  "services": [
+    {"name": "Electrical installation & maintenance", "text": "Installations, fault finding, repairs, maintenance, wiring, lighting and system upgrades for homes, businesses and industrial sites."},
+    {"name": "Air conditioning", "text": "Supply, installation, servicing, troubleshooting and maintenance of air conditioning systems."},
+    {"name": "Cold rooms & freezer rooms", "text": "Installation, servicing and repair of commercial refrigeration and temperature-controlled storage."},
+    {"name": "CCTV security systems", "text": "CCTV installation, maintenance, configuration and remote viewing on your phone."},
+    {"name": "Solar energy systems", "text": "Solar installations, inverter and battery solutions, and system maintenance designed around your needs."},
+    {"name": "Gate & garage motors", "text": "Installation, servicing and fault finding for automatic gate and garage door motors."},
+    {"name": "Appliance repairs", "text": "Troubleshooting and servicing of washing machines, refrigerators and other household appliances."},
+    {"name": "Generators", "text": "Generator installation support, servicing, maintenance and troubleshooting for reliable backup power."},
+    {"name": "Electric fencing", "text": "Electric fence installation, maintenance, fault finding and perimeter security."},
+    {"name": "Gas installations & geysers", "text": "Gas installations and geyser installation, servicing and maintenance, subject to the required certification and registration."}
+  ],
+  "director": {
+    "name": "Elijah Sibara",
+    "role": "Director",
+    "bio": "Elijah completed his Electrical Engineering NATED studies at Vhembe TVET College in 2023, and his Electrical Trade Test training at Intouch Training Centre in the same year. His practical experience began while he was still studying, and he built his skills further at Makonisi Aircon and General Trading and at Tshakonda Electrical.\n\nAs director, Elijah is committed to dependable technical service, professional standards, and creating opportunities for young people to gain practical experience in the electrical and engineering fields."
+  },
+  "clients": [
+    {"name": "LMPP Lodge", "type": "Hospitality and accommodation"},
+    {"name": "Ligidima Lodge", "type": "Hospitality and accommodation"},
+    {"name": "Elim / Hubyeni Complex", "type": "Student accommodation"},
+    {"name": "Biaba Complex", "type": "Accommodation complex"}
+  ]
+}

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Sibara Electrical And Electronics</title>
+<meta name="description" content="Electrical installations, air conditioning, cold rooms, CCTV, solar, gate motors, geysers and more. The best service you can trust.">
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="#"><img class="emblem" src="images/emblem.png" alt="" width="36" height="36"><span data-b="name">Sibara Electrical And Electronics</span></a>
+  <nav class="nav"><a href="#work">Our work</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  <a class="btn btn-copper btn-sm" data-tel hidden>Call now</a>
+</div></header>
+
+<div class="hero"><div class="wrap">
+  <div>
+    <div class="label hero-kicker" data-b="tagline"></div>
+    <h1 id="hero-title" data-b="slogan">The best service you can trust</h1>
+    <p data-b="intro"></p>
+    <div class="cta">
+      <a class="btn btn-copper" data-tel hidden>Call <span data-b="phone"></span></a>
+      <a class="btn btn-ghost" data-wa target="_blank" rel="noopener" hidden>WhatsApp us</a>
+    </div>
+    <ul class="chips" id="highlights"></ul>
+  </div>
+  <div class="board" aria-label="Filter our work by type">
+    <div class="label"><span>Our work · by type</span><span id="board-count"></span></div>
+    <div class="breakers" id="breakers"></div>
+  </div>
+</div></div>
+
+<section class="block" id="work"><div class="wrap">
+  <div class="sec-head"><h2>Our work</h2><p>Tap a card to see the photos.</p></div>
+  <div class="grid" id="cards"><div class="empty">Loading our work...</div></div>
+</div></section>
+
+<section class="block alt" id="services"><div class="wrap">
+  <div class="sec-head"><h2>Services</h2><p>Homes, businesses and industrial sites.</p></div>
+  <div class="services" id="services-list"></div>
+</div></section>
+
+<section class="block" id="about"><div class="wrap two">
+  <div>
+    <h2 class="h2">Who we are</h2>
+    <p class="prose" data-b="about"></p>
+  </div>
+  <div class="stack">
+    <div class="panel"><span class="label">Mission</span><p data-b="mission"></p></div>
+    <div class="panel"><span class="label">Vision</span><p data-b="vision"></p></div>
+    <div class="panel"><span class="label">Values</span><ul class="checks" id="values"></ul></div>
+  </div>
+</div></section>
+
+<section class="block alt" id="director"><div class="wrap two">
+  <div>
+    <span class="label muted" id="dir-role"></span>
+    <h2 class="h2" id="dir-name"></h2>
+  </div>
+  <p class="prose" id="dir-bio"></p>
+</div></section>
+
+<section class="block" id="clients"><div class="wrap">
+  <div class="sec-head"><h2>Who we've worked for</h2><p>Lodges, shops and student accommodation.</p></div>
+  <div class="clients" id="clients-list"></div>
+</div></section>
+
+<section class="block alt" id="contact"><div class="wrap">
+  <div class="sec-head"><h2>Get a quote</h2><p>Call, or send a WhatsApp with a photo of the job.</p></div>
+  <div class="contact" id="contact-cards"></div>
+</div></section>
+
+<footer><div class="wrap foot">
+  <img src="images/logo.jpg" alt="Sibara Electrical And Electronics (Pty) Ltd logo" class="foot-logo">
+  <div>© <span id="yr"></span> <span data-b="name"></span><br><span id="reg"></span></div>
+</div></footer>
+
+<div class="callbar" hidden><a class="btn btn-copper" data-tel hidden>Call</a><a class="btn btn-ghost" data-wa target="_blank" rel="noopener" hidden>WhatsApp</a></div>
+
+<div class="sheet" id="detail" hidden role="dialog" aria-modal="true" aria-labelledby="d-title">
+  <div class="sheet-top"><div class="wrap"><h2 id="d-title"></h2><button class="x" data-close aria-label="Close">×</button></div></div>
+  <div class="wrap" style="padding-top:18px">
+    <span class="pill" id="d-type"></span>
+    <div class="detail-desc" id="d-desc"></div>
+    <div class="photos" id="d-photos"></div>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <div class="bar"><span class="label" id="lb-count"></span><button class="x" id="lb-close" aria-label="Close photo">×</button></div>
+  <div class="stage" id="lb-stage"><img id="lb-img" alt=""></div>
+  <div class="nav-lb"><button class="btn btn-ghost" id="lb-prev">‹ Previous</button><button class="btn btn-ghost" id="lb-next">Next ›</button></div>
+</div>
+<script src="site.js"></script>
+</body>
+</html>
