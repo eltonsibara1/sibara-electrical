@@ -89,7 +89,9 @@
     {
       "title": "Geyser installations",
       "category": "Geyser",
-      "images": [],
+      "images": [
+        "images/projects/img-20261020-wa0001.jpg"
+      ],
       "info": "Geyser installation, servicing and maintenance. Photos coming soon."
     }
   ]
