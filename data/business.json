@@ -1,6 +1,6 @@
 {
   "name": "Sibara Electrical And Electronics pty(LTD)",
-  "slogan": "The best service you can trust",
+  "slogan": "The Best Service You Can Trust",
   "tagline": "Reliable. Professional. Innovative.",
   "intro": "Reliable, high-quality electrical, electronic, refrigeration, air conditioning, security and renewable energy solutions for residential, commercial and industrial clients.",
   "phone": "079 137 8778",
@@ -10,10 +10,11 @@
   "highlights": [
     "100% Black-owned",
     "Residential, commercial & industrial",
-    "Reg. 2019/581510/07"
+    "Reg. 2019/581510/07",
+    "Tax 9960152172"
   ],
   "about": "Sibara Electrical And Electronics is a 100% Black-owned South African company committed to delivering dependable electrical and technical services to residential, commercial and industrial clients.\n\nWe provide installation, maintenance, repair and technical support services for property owners, businesses, accommodation facilities and other organisations. For us, quality service goes beyond completing a job. It means building trust, keeping professional standards, putting safety first and building lasting relationships with our clients.\n\nWe are also passionate about empowering South African youth by giving students practical workplace exposure and technical skills for careers in the electrical and engineering sectors.",
-  "mission": "To provide reliable, safe and high-quality electrical and technical solutions while developing practical skills and creating opportunities for South African youth.",
+  "mission": "To provide reliable, safe and high quality electrical and technical solutions while developing practical skills and creating opportunities for South African youth.",
   "vision": "To become a trusted and recognised electrical and technical services company in South Africa, known for quality workmanship, innovation and youth development.",
   "values": [
     "Trust and integrity",
@@ -86,6 +87,10 @@
     {
       "name": "Biaba Complex",
       "type": "Shopping centre"
+    },
+    {
+      "name": "Willobrige Pick n Pay Cape Town ",
+      "type": "Shop"
     }
   ]
 }
