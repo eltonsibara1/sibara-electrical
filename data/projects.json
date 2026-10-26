@@ -5,7 +5,9 @@
       "category": "Distribution Board (DB)",
       "images": [
         "images/projects/db-board-1.jpg",
-        "images/projects/db-board-2.jpg"
+        "images/projects/db-board-2.jpg",
+        "images/projects/2022-05-11-1.jpg",
+        "images/projects/img20200826123646291.jpg"
       ],
       "info": "New and upgraded distribution boards with neatly routed, labelled circuits, circuit breakers and earth leakage protection."
     },
@@ -21,9 +23,11 @@
         "images/projects/aircon-3.jpg",
         "images/projects/aircon-4.jpg",
         "images/projects/aircon-5.jpg",
-        "images/projects/aircon-6.jpg",
         "images/projects/aircon-7.jpg",
-        "images/projects/aircon-8.jpg"
+        "images/projects/aircon-8.jpg",
+        "images/projects/img-20261026-wa0051.jpg",
+        "images/projects/20221126124348.jpg",
+        "images/projects/20211221174635.jpg"
       ],
       "info": "Wall-mounted split units installed for homes, lodges, offices and accommodation, with neat trunking, securely mounted outdoor units and gas pressure checks at commissioning."
     },
@@ -44,7 +48,10 @@
         "images/projects/solar-1.jpg",
         "images/projects/solar-2.jpg",
         "images/projects/solar-3.jpg",
-        "images/projects/solar-4.jpg"
+        "images/projects/img-20261026-wa0047.jpg",
+        "images/projects/img-20261026-wa0028.jpg",
+        "images/projects/img-20261026-wa0013.jpg",
+        "images/projects/img-20261026-wa0026.jpg"
       ],
       "info": "Rooftop solar panels with inverters, battery banks and protection boxes, wired neatly to keep the power on during load shedding."
     },
@@ -54,7 +61,9 @@
       "images": [
         "images/projects/refrigeration-2.jpg",
         "images/projects/refrigeration-3.jpg",
-        "images/projects/refrigeration-1.jpg"
+        "images/projects/refrigeration-1.jpg",
+        "images/projects/img-20261026-wa0022.jpg",
+        "images/projects/20211220182748.jpg"
       ],
       "info": "Cold room evaporators and condensing units, plus fault finding and compressor repairs on commercial refrigeration."
     },
@@ -64,7 +73,10 @@
       "images": [
         "images/projects/lighting-1.jpg",
         "images/projects/lighting-2.jpg",
-        "images/projects/lighting-3.jpg"
+        "images/projects/lighting-3.jpg",
+        "images/projects/img20210108113750.jpg",
+        "images/projects/20211223142955.jpg",
+        "images/projects/20221129183543.jpg"
       ],
       "info": "Ceiling panel lights and LED tube fittings for shops, supermarkets and offices."
     },
@@ -82,7 +94,10 @@
       "category": "Appliance Repairs",
       "images": [
         "images/projects/appliance-1.jpg",
-        "images/projects/appliance-2.jpg"
+        "images/projects/appliance-2.jpg",
+        "images/projects/2022-05-11.jpg",
+        "images/projects/img-20261026-wa0015.jpg",
+        "images/projects/img-20261026-wa0001.jpg"
       ],
       "info": "Washing machine and refrigerator repairs, including fridge re-gassing and fault finding."
     },
@@ -90,7 +105,10 @@
       "title": "Geyser installations",
       "category": "Geyser",
       "images": [
-        "images/projects/img-20261020-wa0001.jpg"
+        "images/projects/img-20261020-wa0001.jpg",
+        "images/projects/img-20200807-wa0015.jpg",
+        "images/projects/img20200807141736270.jpg",
+        "images/projects/img-20261026-wa0055.jpg"
       ],
       "info": "Geyser installation, servicing and maintenance. "
     }
