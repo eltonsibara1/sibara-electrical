@@ -1,4 +1,4 @@
-# Pages CMS config: lets the owner edit project cards from a phone at https://app.pagescms.org
+# Pages CMS config: lets the owner edit project cards, specials and news from a phone at https://app.pagescms.org
 media:
   input: images/projects
   output: images/projects
@@ -39,6 +39,83 @@ content:
             label: Information
             type: text
 
+  - name: specials
+    label: Specials
+    type: file
+    path: data/specials.json
+    format: json
+    fields:
+      - name: specials
+        label: Specials
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title} ({price})"
+        fields:
+          - name: title
+            label: Title
+            description: "e.g. Geyser installation special"
+            type: string
+            required: true
+          - name: price
+            label: Price or deal
+            description: "e.g. R3 500 or 10% off. Leave empty if there is no price."
+            type: string
+          - name: category
+            label: Type (category)
+            description: "Optional, e.g. Geyser or Solar Systems."
+            type: string
+          - name: image
+            label: Photo
+            type: image
+            options:
+              extensions: [jpg, jpeg, png, webp]
+              rename: safe
+          - name: info
+            label: Information
+            description: "What is included and any conditions."
+            type: text
+          - name: ends
+            label: Ends on
+            description: "Optional. The special disappears from the website after this day."
+            type: date
+
+  - name: news
+    label: News
+    type: file
+    path: data/news.json
+    format: json
+    fields:
+      - name: news
+        label: News posts
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{date} {title}"
+        fields:
+          - name: title
+            label: Title
+            type: string
+            required: true
+          - name: date
+            label: Date
+            description: "Newest posts are shown first."
+            type: date
+            required: true
+          - name: images
+            label: Photos
+            type: image
+            options:
+              multiple:
+                max: 10
+              extensions: [jpg, jpeg, png, webp]
+              rename: safe
+          - name: text
+            label: Story
+            type: text
+
   - name: business
     label: Business details
     type: file
@@ -55,6 +132,10 @@ content:
         description: "Your normal number is fine, e.g. 079 137 8778"
         type: string
       - { name: email, label: Email, type: string }
+      - name: feedback_url
+        label: Ratings and feedback link
+        description: "The Google Apps Script web app link from the ratings setup (see HOW-TO-EDIT.md). Leave empty to hide ratings."
+        type: string
       - { name: registration, label: Company registration number, type: string }
       - { name: highlights, label: Highlights (short badges), type: string, list: true }
       - { name: about, label: About us, type: text }
