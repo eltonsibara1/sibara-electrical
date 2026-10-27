@@ -13,7 +13,7 @@
 <body>
 <header class="top"><div class="wrap">
   <a class="brand" href="#"><img class="emblem" src="images/emblem.png" alt="" width="36" height="36"><span data-b="name">Sibara Electrical And Electronics</span></a>
-  <nav class="nav"><a href="#work">Our work</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  <nav class="nav"><a href="#specials" data-nav="specials" hidden>Specials</a><a href="#work">Our work</a><a href="#news" data-nav="news" hidden>News</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
   <a class="btn btn-copper btn-sm" data-tel hidden>Call now</a>
 </div></header>
 
@@ -34,9 +34,20 @@
   </div>
 </div></div>
 
+<section class="block specials" id="specials" hidden><div class="wrap">
+  <div class="sec-head"><h2>On special</h2><p>Limited time. Message us to book.</p></div>
+  <div class="grid" id="specials-list"></div>
+</div></section>
+
 <section class="block" id="work"><div class="wrap">
-  <div class="sec-head"><h2>Our work</h2><p>Tap a card to see the photos.</p></div>
+  <div class="sec-head"><h2>Our work</h2><p>Tap a card to see the photos, ratings and feedback.</p></div>
   <div class="grid" id="cards"><div class="empty">Loading our work...</div></div>
+</div></section>
+
+<section class="block news-block" id="news" hidden><div class="wrap">
+  <div class="sec-head"><h2>News</h2><p>What we've been up to.</p></div>
+  <div class="news" id="news-list"></div>
+  <button class="btn btn-quiet" id="news-more" type="button" hidden>Show older news</button>
 </div></section>
 
 <section class="block alt" id="services"><div class="wrap">
@@ -86,7 +97,22 @@
   <div class="wrap" style="padding-top:18px">
     <span class="pill" id="d-type"></span>
     <div class="detail-desc" id="d-desc"></div>
+    <div class="ask" id="d-ask"></div>
     <div class="photos" id="d-photos"></div>
+    <div class="reviews" id="d-reviews" hidden>
+      <div class="rev-head"><h3>Ratings &amp; feedback</h3><span class="stars-sum" id="d-avg"></span></div>
+      <form class="rev-form" id="rev-form" novalidate>
+        <fieldset class="rate">
+          <legend>Rate this work</legend>
+          <div class="rate-stars" id="rate-stars"></div>
+        </fieldset>
+        <label><span>Your name <span class="muted">(optional)</span></span><input name="name" maxlength="60" autocomplete="name"></label>
+        <label><span>Feedback <span class="muted">(optional)</span></span><textarea name="comment" maxlength="600" rows="3"></textarea></label>
+        <label class="hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+        <div class="row"><button class="btn btn-copper" type="submit">Send rating</button><span class="rev-msg" id="rev-msg" role="status"></span></div>
+      </form>
+      <div class="rev-list" id="rev-list"></div>
+    </div>
   </div>
 </div>
 
