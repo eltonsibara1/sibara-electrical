@@ -1,3 +1,11 @@
 {
-  "specials": []
+  "specials": [
+    {
+      "title": "Air conditioner ",
+      "price": "R7650 10% off",
+      "category": "Air conditioning ",
+      "image": "images/projects/img-20261031-wa0043.jpg",
+      "ends": "2026-12-10"
+    }
+  ]
 }
