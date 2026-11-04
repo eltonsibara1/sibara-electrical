@@ -25,6 +25,9 @@
     var url = String(biz.counter_url || '').trim().replace(/\/+$/, '');
     if (!/^https:\/\//.test(url) || location.protocol === 'file:') return;
     var show = /^y/i.test(String(biz.show_visitors || ''));
+    // the owner's page opens at once (it does not wait for the count)
+    if (wantsPanel()) panel(url);
+    window.addEventListener('hashchange', function(){ if (wantsPanel()) panel(url); });
     // only a counter that keeps each website apart (version 2) is used, so the two sites never mix
     fetch(url + '/count?site=' + SITE).then(function(r){ return r.json(); }).then(function(d){
       if (!d || !(d.version >= 2)) return;
@@ -36,8 +39,6 @@
         var foot = $('.foot > div');
         if (foot) foot.appendChild(el('div', {class: 'muted', style: 'margin-top:4px', text: Number(d.visitors).toLocaleString() + ' visitors'}));
       }
-      if (wantsPanel()) panel(url);
-      window.addEventListener('hashchange', function(){ if (wantsPanel()) panel(url); });
     }).catch(function(){});
   }).catch(function(){});
 
