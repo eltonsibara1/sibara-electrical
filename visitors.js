@@ -18,10 +18,11 @@
     return e;
   }
   function store(k, v){ try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
-  function wantsPanel(){ return /(^|[#?&])visitors\b/.test(location.hash + location.search); }
+  function onOwnPage(){ return /\/visitors(\/|\.html)?$/.test(location.pathname); }
+  function wantsPanel(){ return onOwnPage() || /(^|[#?&])visitors\b/.test(location.hash + location.search); }
   function mine(){ if (wantsPanel() && store('vc_me') !== '0') store('vc_me', '1'); return store('vc_me') === '1'; }
 
-  fetch('data/business.json', {cache: 'no-cache'}).then(function(r){ return r.json(); }).then(function(biz){
+  fetch('/data/business.json', {cache: 'no-cache'}).then(function(r){ return r.json(); }).then(function(biz){
     var url = String(biz.counter_url || '').trim().replace(/\/+$/, '');
     if (!/^https:\/\//.test(url) || location.protocol === 'file:') return;
     var show = /^y/i.test(String(biz.show_visitors || ''));
@@ -48,7 +49,7 @@
     var sheet = el('div', {class: 'sheet', id: 'vc-sheet', role: 'dialog', 'aria-modal': 'true', 'aria-label': 'Visitors'}, [
       el('div', {class: 'sheet-top'}, [el('div', {class: 'wrap'}, [el('h2', {text: 'Visitors'}),
         el('button', {class: 'x', 'aria-label': 'Close', text: '×', onclick: function(){ sheet.remove(); document.body.style.overflow = '';
-          history.replaceState(null, '', location.pathname); }})])]), body]);
+          if (onOwnPage()) location.href = '/'; else history.replaceState(null, '', location.pathname); }})])]), body]);
     document.body.appendChild(sheet); document.body.style.overflow = 'hidden';
     var key = store('vc_key_sibara') || '';
 

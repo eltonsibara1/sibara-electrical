@@ -138,7 +138,7 @@ content:
         type: string
       - name: counter_url
         label: Visitor counter link
-        description: "The Cloudflare Worker link that counts visitors. Leave empty to stop counting. See the numbers at sibaraelectric.com/#visitors"
+        description: "The Cloudflare Worker link that counts visitors. Leave empty to stop counting. See the numbers at sibaraelectric.com/visitors"
         type: string
       - name: show_visitors
         label: Show the number of visitors to everyone? (yes / no)
