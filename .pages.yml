@@ -136,6 +136,14 @@ content:
         label: Ratings and feedback link
         description: "The Google Apps Script web app link from the ratings setup (see HOW-TO-EDIT.md). Leave empty to hide ratings."
         type: string
+      - name: counter_url
+        label: Visitor counter link
+        description: "The Cloudflare Worker link that counts visitors. Leave empty to stop counting. See the numbers at sibaraelectric.com/#visitors"
+        type: string
+      - name: show_visitors
+        label: Show the number of visitors to everyone? (yes / no)
+        description: "yes puts it at the bottom of the page"
+        type: string
       - { name: registration, label: Company registration number, type: string }
       - { name: highlights, label: Highlights (short badges), type: string, list: true }
       - { name: about, label: About us, type: text }

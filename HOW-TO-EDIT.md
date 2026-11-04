@@ -54,3 +54,11 @@ They open WhatsApp or email with a message already written that names the card, 
 
 ## Change your phone number, WhatsApp or other details
 Open **Business details**, change what you need, and tap **Save**.
+
+## Visitor counter
+The website counts its visitors (once a day per visitor; no cookies, nothing personal is kept).
+
+- **See the numbers:** open **sibaraelectric.com/#visitors** and type the visitor counter password (ask Elton). You see today, the last 7 and 30 days, all time, a chart per day, countries, phones vs computers, and where visitors came from.
+- **Your own visits are not counted:** the first time you open **#visitors** on a phone or computer, that device is marked as yours. The panel has a button to switch this.
+- **Show the count to everyone:** in Pages CMS open **Business details** and type **yes** in "Show the number of visitors to everyone?". It appears at the bottom of the page.
+- To stop counting, empty the **Visitor counter link** in Business details.
